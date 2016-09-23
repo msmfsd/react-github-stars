@@ -1,6 +1,6 @@
 module.exports = [
   {
-    entry: ['babel-polyfill', 'whatwg-fetch', './index.js'],
+    entry: ['babel-polyfill', 'whatwg-fetch', './src/ReactGithubStars.js'],
     output: {
       path: './dist/',
       filename: 'bundle.js',

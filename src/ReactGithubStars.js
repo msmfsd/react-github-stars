@@ -6,7 +6,7 @@
  */
 import React, { Component, PropTypes } from 'react'
 import 'whatwg-fetch'
-import './GithubProfile.css'
+import './ReactGithubStars.css'
 
 const API_ROOT = 'https://api.github.com/users'
 

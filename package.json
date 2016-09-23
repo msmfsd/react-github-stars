@@ -1,8 +1,8 @@
 {
   "name": "react-github-stars",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component to display a Github users total amount of stars across all their repos",
-  "main": "index.js",
+  "main": "src/ReactGithubStars.js",
   "scripts": {
     "start": "npm run build && webpack-dev-server",
     "build": "webpack",
