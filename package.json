@@ -1,6 +1,6 @@
 {
   "name": "react-github-stars",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A React component to display a Github users total amount of stars across all their repos",
   "main": "./dist/component.js",
   "scripts": {
