@@ -2,7 +2,7 @@
   "name": "react-github-stars",
   "version": "1.0.5",
   "description": "A React component to display a Github users total amount of stars across all their repos",
-  "main": "./dist/bundle.js",
+  "main": "./dist/component.js",
   "scripts": {
     "start": "npm run build && webpack-dev-server",
     "build": "webpack",
@@ -28,6 +28,9 @@
     "url": "https://github.com/msmfsd/react-github-stars/issues"
   },
   "homepage": "https://github.com/msmfsd/react-github-stars#readme",
+  "dependencies": {
+    "whatwg-fetch": "^1.0.0"
+  },
   "devDependencies": {
     "babel-core": "^6.9.1",
     "babel-eslint": "^6.0.4",
@@ -64,7 +67,6 @@
     "react-dom": "^15.1.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1",
-    "whatwg-fetch": "^1.0.0"
+    "webpack-dev-server": "^1.14.1"
   }
 }
