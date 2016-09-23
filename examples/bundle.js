@@ -21591,6 +21591,7 @@
 	  displayBorder: _react.PropTypes.bool.isRequired
 	};
 	exports.default = ReactGithubStars;
+	module.exports = exports['default'];
 
 /***/ },
 /* 173 */

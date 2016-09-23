@@ -10,7 +10,11 @@ module.exports = [
         {
           test: /\.js$/,
           exclude: /node_modules/,
-          loaders: ['babel'],
+          loader: 'babel',
+          query: {
+            presets: ['es2015', 'stage-0', 'react'],
+            plugins: ['add-module-exports']
+          }
         },
         {
           test: /\.css$/,
@@ -37,7 +41,11 @@ module.exports = [
         {
           test: /\.js$/,
           exclude: /node_modules/,
-          loaders: ['babel'],
+          loader: 'babel',
+          query: {
+            presets: ['es2015', 'stage-0', 'react'],
+            plugins: ['add-module-exports']
+          }
         },
         {
           test: /\.css$/,
