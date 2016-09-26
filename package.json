@@ -4,8 +4,8 @@
   "description": "A React component to display a Github users total amount of stars across all their repos",
   "main": "./dist/component.js",
   "scripts": {
-    "start": "npm run build && webpack-dev-server",
-    "build": "webpack",
+    "start": "webpack && webpack-dev-server",
+    "build": "babel ./src/ReactGithubStars.js -o ./dist/component.js",
     "lint": "eslint src",
     "karma": "NODE_ENV=testing karma start --require babel-polyfill",
     "test": "npm run lint && npm run karma"
