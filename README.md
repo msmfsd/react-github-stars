@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/msmfsd/react-github-stars.svg?branch=master)](https://travis-ci.org/msmfsd/react-github-stars)
 
+[![NPM](https://nodei.co/npm/react-github-stars.png?downloads=true)](https://nodei.co/npm/react-github-stars/)
+
 # react-github-stars
 **react-github-stars** is a React component to display a Github users total amount of stars across all their repos
 
